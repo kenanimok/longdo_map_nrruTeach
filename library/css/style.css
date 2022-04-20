@@ -1,0 +1,29 @@
+h1 {
+    color: red;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+}
+body {
+    background:#ccffcc;
+}
+.logo {
+    height: 150px;
+    background: #d14;
+    padding:  20px;
+}
+#company {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+.logo p{
+    color: white;
+    font-size: 12px;
+    text-decoration: underline;
+    text-align: center;
+    
+}

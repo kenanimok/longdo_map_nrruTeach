@@ -1,0 +1,76 @@
+@font-face {
+    font-family: 'boontook_ultraultra';
+    src: url('boontook-ultra-webfont.eot');
+    src: url('boontook-ultra-webfont.eot?#iefix') format('embedded-opentype'),
+         url('boontook-ultra-webfont.woff') format('woff'),
+         url('boontook-ultra-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+     background: #b7deed; /* Old browsers */
+background: -moz-linear-gradient(left, #b7deed 0%, #71ceef 50%, #21b4e2 51%, #b7deed 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#b7deed), color-stop(50%,#71ceef), color-stop(51%,#21b4e2), color-stop(100%,#b7deed)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, #b7deed 0%,#71ceef 50%,#21b4e2 51%,#b7deed 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left, #b7deed 0%,#71ceef 50%,#21b4e2 51%,#b7deed 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left, #b7deed 0%,#71ceef 50%,#21b4e2 51%,#b7deed 100%); /* IE10+ */
+background: linear-gradient(to right, #b7deed 0%,#71ceef 50%,#21b4e2 51%,#b7deed 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed',GradientType=1 ); /* IE6-9 */
+ padding-top: 70px;
+    
+}
+h1, h2 {
+     color: #d14;
+     border-bottom: #ccc 1px solid;
+     padding-bottom: 5px;
+      font-family: 'boontook_ultraultra', Tahoma;
+
+}
+.jumbotron{
+    
+    padding-top: 5px;
+    
+    background: #b7deed; /* Old browsers */
+background: -moz-linear-gradient(left, #b7deed 0%, #71ceef 50%, #21b4e2 51%, #b7deed 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#b7deed), color-stop(50%,#71ceef), color-stop(51%,#21b4e2), color-stop(100%,#b7deed)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left, #b7deed 0%,#71ceef 50%,#21b4e2 51%,#b7deed 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left, #b7deed 0%,#71ceef 50%,#21b4e2 51%,#b7deed 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left, #b7deed 0%,#71ceef 50%,#21b4e2 51%,#b7deed 100%); /* IE10+ */
+background: linear-gradient(to right, #b7deed 0%,#71ceef 50%,#21b4e2 51%,#b7deed 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b7deed', endColorstr='#b7deed',GradientType=1 ); /* IE6-9 */
+    
+    
+}
+.jumbotron h1, .jumbotron p{
+    color: #d14;
+}
+.row{
+    margin-bottom: 20px;
+}
+
+header h1{
+    text-align: right;
+    font-size: 18px;
+}
+footer p{
+	background-color: #e3a206;
+    text-align: center;
+   
+}
+header {
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+      
+    box-shadow: 10px 10px 10px #ccc;
+    -webkit-box-shadow: 10px 10px 10px #ccc;
+    -moz-box-shadow: 10px 10px 10px #ccc;
+}
+#button-panel h2{
+    text-shadow:5px 5px 5px #6FC;
+}
+body{
+     padding-top: 70px;
+}

@@ -1,0 +1,18 @@
+<?php
+	$mysql_host = 'localhost';
+	$mysql_user = 'root';
+	$mysql_pass = '12345678';
+	$mysqp_db = 'db_longdo';
+// ===== Database
+$con = mysqli_connect($mysql_host,$mysql_user,$mysql_pass,$mysqp_db);
+if ($con->connect_errno) {
+    echo $con->connect_error;
+    exit;
+}
+$con->set_charset("tis-620");
+$result = $con->query("SET character_set_results=tis620");//ตั้งค่าการดึงข้อมูลออกมาให้เป็น tis620
+$result = $con->query("SET character_set_client=tis620");//ตั้งค่าการส่งข้อมุลลงฐานข้อมูลออกมาให้เป็น tis620
+$result = $con->query("SET character_set_connection=tis620");//ตั้งค่าการติดต่อฐานข้อมูลให้เป็น tis620
+
+error_reporting(error_reporting() & ~E_NOTICE);
+?>

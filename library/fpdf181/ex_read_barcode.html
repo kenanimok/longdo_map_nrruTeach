@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>อ่านบาร์โค้ด</title>
+</head>
+
+<body>
+<script language="javascript" type="text/javascript">
+function readBarcode(e){
+	 var code = e.keyCode ? e.keyCode : e.which;
+	  if(code == 13){
+		//ทำบางสิ่งบางอย่างต่อ เช่น อาจจะไปยังฟังก์ชันสำหรับหาชื่อสินค้ามาแสดง หรือจะไปยังฟังก์ชันที่บันทึกลงรายการสินค้าที่จะขายเลยก็ได้
+		alert("อ่านบาร์โค้ดสำเร็จ");
+	  }
+}
+</script>
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr>
+    <td width="15%">สแกนบาร์โค้ดที่นี่ :</td>
+    <td width="85%"><input type="text" name="product_code" id="product_code" style="width:150px;" onkeypress="javascript: readBarcode(event);" /></td>
+  </tr>
+</table>
+
+</body>
+</html>
